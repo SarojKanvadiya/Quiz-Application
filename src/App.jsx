@@ -8,6 +8,7 @@ import Login from './pages/Login'
 const App = () => {
   return (
     <div>
+      <Home/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
