@@ -1,0 +1,11 @@
+body{
+  box-sizing: border-box;
+  background-color: rgba(220, 220, 220, 0.76);
+}
+
+.root{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

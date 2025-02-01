@@ -1,0 +1,84 @@
+.container{
+text-align: center;
+  margin: 10% auto;
+  width: fit-content;
+ /* border: 2px solid red; */
+ font-size: 18px;
+ padding: 20px;
+}
+
+.login-link{
+   text-decoration: none;
+   color: #009dff;
+   font-weight: 600;
+}
+
+.form-container{
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+}
+form{
+  border-radius: 8px;
+  padding: 30px;
+  background-color: white;
+  max-width: 500px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+form input{
+  padding: 10px;
+}
+
+input::placeholder,input[type="submit"]{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+input[type="submit"]{
+  background-color: #009dff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.quiz-list{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.quiz-card{
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  /* padding: 30px; */
+  margin-inline: 20px;
+  border-radius: 10px;
+}
+.option-container{
+  /* width: 100%; */
+ justify-content: center;
+ align-items: center;
+ margin: 10px;
+ border-radius: 5px;
+  display: flex;
+  border: 1px solid gray;
+}
+
+input[type="checkbox"]{
+  border: red;
+  border-radius: 50%;
+}
